@@ -1,0 +1,39 @@
+# requirements.txt
+numpy==1.24.3
+pandas==1.5.3
+scikit-learn==1.3.0
+nltk==3.8.1
+spacy==3.6.1
+
+# UI & API
+gradio==3.41.2
+fastapi==0.103.1
+uvicorn==0.23.2
+
+# MLOps Tools
+mlflow==1.30.0
+pydantic==1.10.17
+dvc==3.15.2
+
+# AI Integration
+replicate==0.10.0
+
+# Monitoring & Logging
+prometheus-client==0.17.1
+python-multipart==0.0.6
+loguru==0.7.2
+
+# Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+
+# Development
+jupyter==1.0.0
+jupyterlab==4.0.6
+black==21.12b0
+flake8==6.0.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+requests==2.31.0

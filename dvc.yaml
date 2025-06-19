@@ -1,0 +1,17 @@
+stages:
+  data_preparation:
+    cmd: python src/data_preparation.py
+    deps:
+    - src/data_preparation.py
+    outs:
+    - data/processed/skills_database.json
+
+  model_training:
+    cmd: python src/model_training.py
+    deps:
+    - src/model_training.py
+    - data/processed/skills_database.json
+    outs:
+    - models/skill_matcher.joblib
+    metrics:
+    - metrics/model_metrics.json
