@@ -52,7 +52,7 @@ AI-powered tool yang memberikan:
 
 ## 🎯 Conclusion & Recommendations
 
-   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/smart_cv.PNG)
+   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/smart_cv.png)
 
 ---
 
