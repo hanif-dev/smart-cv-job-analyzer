@@ -183,7 +183,6 @@ smart-cv-job-analyzer/
 ├── Dockerfile           # Container definition
 ├── requirements.txt     # Python dependencies
 └── README.md           # This file
-"""
 ```
 ---
 
