@@ -161,6 +161,7 @@ Focus on actionable insights and be specific.
 
 
 ## 🏗️ Project Structure
+```python
 smart-cv-job-analyzer/
 ├── .devcontainer/          # Codespaces configuration
 ├── .github/workflows/      # CI/CD pipelines
@@ -182,7 +183,8 @@ smart-cv-job-analyzer/
 ├── Dockerfile           # Container definition
 ├── requirements.txt     # Python dependencies
 └── README.md           # This file
-
+"""
+```
 ---
 
 ## 📞 Contact & Repository
