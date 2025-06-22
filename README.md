@@ -31,6 +31,29 @@ AI-powered tool yang memberikan:
 - **Containerized**: Docker and Kubernetes ready
 - **CI/CD**: Automated testing and deployment
 
+## 🔗 Raw Dataset Link
+
+### Data Sources
+**Tidak menggunakan dataset eksternal** - Fokus pada self-curated data:
+
+1. **Skills Database** (Self-curated)
+   * 7 kategori skills: Programming, Web Tech, Database, Cloud/DevOps, Data Science, Mobile, Soft Skills
+   * 80+ skills dengan importance weighting (1.0-3.0)
+   * JSON format dengan metadata dan kategori
+   * File: `data/skills_database.json`
+
+2. **Sample Data** (Generated for Testing)
+   * 3 sample CVs dengan berbagai profil (Junior, Mid, Senior)
+   * 3 sample job descriptions (Frontend, Backend, Full-stack)
+   * Training dataset untuk validation dan testing
+   * File: `data/sample_data/`
+
+3. **Model Data**
+   * TF-IDF vectorizer untuk text similarity
+   * Skills extraction patterns dan regex
+   * Match scoring algorithms dengan weighted calculation
+   * File: `models/cv_analyzer_model.pkl`
+
 ## 🛠️ Technology Stack
 
 ### Core MLOps Stack
